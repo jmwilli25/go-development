@@ -28,11 +28,11 @@ $ cd /opt
 $ sudo su
 $ mkdir wsluser/
 $ cd wsluser/
-$ curl -OL https://golang.org/dl/go1.16.7.linux-amd64.tar.gz
+$ curl -OL https://go.dev/dl/go1.19.3.linux-amd64.tar.gz
 $ cd ../
 $ chown -R wsluser:wsluser wsluser/
 $ exit
-$ tar -C /usr/local -xvzf go1.16.7.linux-amd64.tar.gz
+$ tar -C /usr/local -xvzf go1.19.3.linux-amd64.tar.gz
 $ vi ~/.profile 
 # set PATH so it includes go's bin if it exists
 if [ -d "/usr/local/go/bin" ] ; then
